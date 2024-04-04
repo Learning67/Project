@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-    </body>
-    <footer>
-    </footer>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="todo.css">
+  </head>
+ <body>
+     <header>
+      <img src="Images/logo (2).jpg">
+         <style type="text/css">
+body { 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+</style>
+        <nav>
+        <div class="container">
+           <ul>
+               <li><a href="home.htm">Home</a></li>
+               <li><a href="Clock.htm">Clock</a></li>
+               <li><a href="Todo.htm">To-do list</a></li>
+               <li><a href="FAQ.htm">FAQ</a></li>
+           </ul>
+          </div>
+         </nav>
+      </header>
+   <h1>To-Do List</h1>
+   <input type="text" id="taskInput" placeholder="Add your task">
+   <button onclick="addTask()">Add</button>
+   <ul id="taskList"></ul>
+ 
+   <script src="todo.js"></script>
+  </body>
 </html>

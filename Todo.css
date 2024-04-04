@@ -1,0 +1,52 @@
+.container {
+      width: 960px;
+      margin: 0 auto;
+      overflow: auto;
+      display: table;
+}
+
+header {
+      text-align: center;
+      width: 100%;
+      background-image: url('./Images/leaves.jpg');
+}
+
+nav {
+      font-weight: bold;
+      background-image: url('./Images/sky.jpg');
+      background-repeat: repeat-x;
+      margin: -10px;
+}
+
+nav ul, footer ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 20px 0px;
+}
+
+nav li, footer li {
+      display: inline;
+      margin: 20px;
+      text-transform: uppercase;
+}
+
+nav a, footer a {
+      text-decoration: none;
+      color:white;
+}
+
+nav a:hover, footer a:hover {
+      text-decoration: underline;
+}
+
+body {
+    margin: 0px;
+    color: white;
+    background-color: #2C2C2F;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+#taskList {padding-left: 0; list-style-position: inside; text-align: center}
