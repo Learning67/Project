@@ -1,0 +1,50 @@
+.clock {
+  font-size: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: -10px;
+  background-color: black;
+}
+
+.container {
+      width: 960px;
+      margin: 0 auto;
+      overflow: auto;
+}
+
+header {
+      text-align: center;
+      width: 100%;
+      background-image: url('./Images/leaves.jpg');
+}
+
+nav {
+      font-weight: bold;
+      background-image: url('./Images/sky.jpg');
+      background-repeat: repeat-x;
+      margin: -10px;
+}
+
+nav ul, footer ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 20px 0px;
+}
+
+nav li, footer li {
+      display: inline;
+      margin: 20px;
+      text-transform: uppercase;
+}
+
+nav a, footer a {
+      text-decoration: none;
+      color:white;
+}
+
+nav a:hover, footer a:hover {
+      text-decoration: underline;
+}
